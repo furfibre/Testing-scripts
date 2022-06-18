@@ -5,7 +5,7 @@ echo "Starting install script for Ubuntu/Debian Mystnodes"
 sleep 5
 
 #Adding the repository for the Node
-sudo add-apt-repository ppa:mysteriumnetwork/node
+sudo add-apt-repository ppa:mysteriumnetwork/node -y
 
 #Some VPS/Distros have a few issues and need the below key to work
 sudo gpg --keyserver keyserver.ubuntu.com --recv-keys ECCB6A56B22C536D
